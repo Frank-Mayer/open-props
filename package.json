@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "open-props-sass",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
+  "repository": "https://github.com/Frank-Mayer/open-props.git",
+  "author": "Frank Mayer <frank.mayer1907@protonmail.com>",
+  "license": "MIT",
+  "style": "open-props.sass",
+  "private": false,
+  "devDependencies": {
+    "css": "^3.0.0",
+    "node-fetch": "^3.2.3"
+  },
+  "keywords": [
+    "css",
+    "utilities",
+    "variables",
+    "custom properties",
+    "gradients",
+    "sass",
+    "scss"
+  ]
+}
