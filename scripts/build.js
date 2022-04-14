@@ -24,7 +24,7 @@ myPackageJson.keywords = propsPackageJson.keywords;
 myPackageJson.keywords.push("sass");
 myPackageJson.keywords.push("scss");
 
-fs.writeFileSync("package.json", JSON.stringify(myPackageJson, null, 2));
+fs.writeFileSync("package.json", JSON.stringify(myPackageJson, null, 2) + "\n");
 
 /** @type {Array<string>} */
 const sassSB = new Array();
