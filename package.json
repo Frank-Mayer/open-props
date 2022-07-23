@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "open-props-sass",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "scripts": {
     "build": "node ./scripts/build.js"
   },
